@@ -1,0 +1,12 @@
+{
+  "source": ["sharebus.co"],
+  "detail-type": ["quotation_created", "quotation_canceled", "quotation_updated"],
+  "detail": {
+    "input_params": [{
+      "exists": true
+    }],
+    "trip_id": [{
+      "exists": true
+    }]
+  }
+}

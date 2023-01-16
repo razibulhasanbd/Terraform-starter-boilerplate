@@ -1,0 +1,12 @@
+{
+    "source": ["dev.sharebus.co"],
+    "detail-type": ["passenger_goal_met"],
+    "detail": {
+      "trip_id": [{
+        "exists": true
+      }],
+      "requester": [{
+        "exists": true
+      }]
+    }
+  }

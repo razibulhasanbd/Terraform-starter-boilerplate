@@ -1,0 +1,10 @@
+{
+  "source": ["bussaway-staging.ferdia.app"],
+  "detail-type": ["trip_arrived", "trip_canceled", "trip_departed", "trip_terminated", "trip_updated", "trip_urgent_update"],
+  "detail": {
+    "domain": ["bussaway-staging"],
+    "tripId": [{
+      "prefix": "SB-"
+    }]
+  }
+}
